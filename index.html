@@ -4,9 +4,10 @@
     
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Le portfolio de Nina Carducci présente ses photographies, allant des shootings photo aux retouches d'albums photos.">
-    <title>Nina Carducci - Accueil</title>
-
+	<title>Nina Carducci - Accueil</title>
+    <meta name="description" content="Le portfolio de Nina Carducci basée à Bordeaux présente ses photographies, allant des shootings photo aux retouches d'albums photos.">
+	<link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+   
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
@@ -32,6 +33,47 @@
     <meta name="twitter:image:src" content="https://marc-74.github.io/Nina-Carducci/assets/images/nina-carducci.webp" />
     <meta name="twitter:image:alt" content="Nina Carducci - Photographe professionnelle" />
 
+	<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org/",
+		  "@graph": [
+			{
+			  "@type": "WebSite",
+			  "url": "https://marc-74.github.io/Nina-Carducci/",
+			  "name": "Nina Carducci",
+			  "description": "Nina Carducci - Photographe professionnelle",
+			  "inLanguage": "fr-FR",
+			  "image": {
+				"@type": "ImageObject",
+				"url": "https://marc-74.github.io/Nina-Carducci/assets/images/nina-carducci.webp",
+				"alt": "Photo de Nina Carducci"
+			  }
+			},
+			{
+			  "@type": "ProfessionalService",
+			  "name": "Nina Carducci",
+			  "description": "Photographe professionnelle",
+			  "image": "https://marc-74.github.io/Nina-Carducci/assets/images/nina-carducci.webp",
+			  "address": {
+				"@type": "PostalAddress",
+				"addressCountry": "FR",
+				"addressLocality": "Bordeaux, France",
+				"postalCode": "F-33200",
+				"streetAddress": "68 avenue Alsace-Lorraine"
+			  },
+			  "telephone": "+33556677889",
+			  "email": "ninacarducci@oc.com",
+			  "openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00",
+			  "paymentAccepted": "Cash, Credit Card",
+			  "priceRange": "50-400 €",
+			  "areaServed": ["Paris", "Bordeaux"],
+			  "url": "https://marc-74.github.io/Nina-Carducci/"
+			}
+		  ]
+		}
+	</script>
+	
+	
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>    
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
 	<script src="./assets/maugallery.js" defer></script>
